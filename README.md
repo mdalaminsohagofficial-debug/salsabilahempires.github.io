@@ -1,48 +1,55 @@
+# MD. AL AMIN SOHAG
+### Strategic Researcher | Founder of Salsabilah Amin Empires Ltd
 
-MD. AL AMIN SOHAG
-Strategic Researcher | Founder of Salsabilah Amin Empires
-Developer of "Digit Theory"
+Welcome to the official strategic research repository. This space serves as a central hub for industrial resilience frameworks, digital infrastructure strategy, and next-generation economic systems modeling.
 
-Welcome to my official GitHub research repository.
+---
 
-About
-I am an independent strategic researcher focused on industrial resilience, digital infrastructure, and next-generation economic systems.
+## 🏛️ Strategic Overview
+The research focuses on developing robust mathematical frameworks and strategic logistics models designed to support large-scale technological and business ecosystems globally.
 
-My work explores mathematical frameworks, strategic logistics models, and digital economic structures designed to support large-scale business and technological ecosystems.
+## 🧬 Research Frameworks
 
-Research Frameworks
-Digit Theory
-A conceptual mathematical framework exploring the role of money as a dynamic variable within structured economic systems.
+### 1. Digit Theory
+A conceptual mathematical framework exploring the role of money and digital identity as dynamic variables within structured economic systems.
 
-SOHAG Filter
-A strategic logistics and decision-making model designed to simplify complex industrial and operational processes.
+### 2. SOHAG Filter
+A strategic logistics and decision-making model designed to simplify and optimize complex industrial and operational processes.
 
-19-Nation Grid Resilience Framework
-Research analyzing digital infrastructure resilience across major global economies and technological ecosystems.
+### 3. 19-Nation Grid Resilience Framework
+In-depth research and analysis of digital infrastructure resilience across major global economies and technological ecosystems.
 
-Areas of Focus
-Industrial Resilience 4.0
-Digital Infrastructure Strategy
-Artificial Intelligence Systems
-Economic Systems Modeling
-Strategic Logistics
-Intellectual Property
-SALSABILAH AMIN EMPIRES
-Registered Trade Mark Holder
-Reg No: 018923558
+---
 
-Publications
-Author of:
+## 🛡️ Corporate Identity & Credentials
+**Salsabilah Amin Empires Ltd** operates as the primary entity for these research initiatives.
 
-Circuit to Start Up
-The Empress's Legacy
-Current Mission
-Building strategic research frameworks that combine technology, economics, and infrastructure to support future global systems.
+* **Registered Trade Mark:** Reg No: 018923558
+* **Compliance:** Cyber Essentials (Micro) Certified
+* **Verification:** Blockmark Verified Identity | IASME Consortium Audited
+* **Standards:** Research aligned with BSI (British Standards Institution) Knowledge frameworks.
 
-Repository Purpose
+---
+
+## 🎯 Areas of Focus
+* Industrial Resilience 4.0
+* Digital Infrastructure Strategy
+* Artificial Intelligence Systems
+* Economic Systems Modeling
+* Strategic Logistics & Intellectual Property
+
+## 📚 Publications
+* *Circuit to Start Up*
+* *The Empress's Legacy*
+
+---
+
+## 🔗 Repository Purpose
 This repository contains:
+- Technical Documentation
+- Research Frameworks
+- Experimental Models
+- Digital Infrastructure Concepts
 
-Research frameworks
-Technical documentation
-Experimental models
-Digital infrastructure concepts
+---
+© 2026 **Salsabilah Amin Empires Ltd**. All Rights Reserved.
