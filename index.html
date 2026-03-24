@@ -3,29 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD. AL AMIN SOHAG | Digital Identity Builder</title>
+    <title>MD. AL AMIN SOHAG | Strategic Researcher</title>
     <style>
-        body { margin: 0; font-family: 'Inter', sans-serif; background: #0f172a; color: #f8fafc; text-align: center; display: flex; flex-direction: column; min-height: 100vh; }
-        .container { flex: 1; padding: 100px 20px; max-width: 800px; margin: auto; }
-        h1 { font-size: 3rem; color: #38bdf8; margin-bottom: 10px; }
-        h2 { font-weight: 300; color: #cbd5e1; font-size: 1.4rem; margin-bottom: 30px; }
-        p { line-height: 1.8; font-size: 1.1rem; color: #e2e8f0; margin-bottom: 40px; }
-        .btn-group { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
-        .btn { padding: 12px 25px; background: #38bdf8; color: #000; text-decoration: none; border-radius: 8px; font-weight: bold; transition: 0.3s; }
-        .btn-outline { background: transparent; border: 2px solid #38bdf8; color: #38bdf8; }
-        footer { padding: 30px; background: #1e293b; font-size: 14px; color: #9ca3af; }
+        :root {
+            --primary: #38bdf8;
+            --accent: #2dd4bf;
+            --bg: #020617;
+            --card: #0f172a;
+            --text: #f1f5f9;
+            --muted: #94a3b8;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 80px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 { font-size: 2.8rem; color: var(--primary); margin: 0; letter-spacing: -1px; }
+        .sub-title { font-size: 1.2rem; color: var(--accent); font-weight: 500; margin-top: 10px; }
+
+        .about-section {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+            margin-bottom: 40px;
+        }
+
+        h3 { color: var(--primary); border-bottom: 1px solid #1e293b; padding-bottom: 10px; margin-top: 40px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #1e293b;
+            transition: 0.3s;
+        }
+
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); }
+
+        .card h4 { color: var(--accent); margin-top: 0; }
+
+        .trademark {
+            font-size: 0.85rem;
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn-group { text-align: center; margin-top: 50px; }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--primary);
+            color: #020617;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        footer { text-align: center; margin-top: 100px; color: var(--muted); font-size: 0.9rem; padding: 40px; border-top: 1px solid #1e293b; }
     </style>
 </head>
 <body>
-    <div class="container">
+
+<div class="container">
+    <header>
         <h1>MD. AL AMIN SOHAG</h1>
-        <h2>Writer • Thinker • Digital Identity Builder</h2>
-        <p>Building the future of <strong>Salsabilah Amin Empires</strong> through <em>The Digit Theory</em>.</p>
-        <div class="btn-group">
-            <a href="blog.html" class="btn">Read Blog</a>
-            <a href="mailto:ceo@salsabilah.com" class="btn btn-outline">Contact Me</a>
+        <div class="sub-title">Strategic Researcher | Founder of Salsabilah Amin Empires</div>
+        <p>Developer of <strong>"Digit Theory"</strong></p>
+    </header>
+
+    <div class="about-section">
+        <h3>About</h3>
+        <p>I am an independent strategic researcher focused on industrial resilience, digital infrastructure, and next-generation economic systems. My work explores mathematical frameworks, strategic logistics models, and digital economic structures designed to support large-scale business and technological ecosystems.</p>
+    </div>
+
+    <h3>Research Frameworks</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Digit Theory</h4>
+            <p>A conceptual mathematical framework exploring the role of money as a dynamic variable within structured economic systems.</p>
+        </div>
+        <div class="card">
+            <h4>SOHAG Filter</h4>
+            <p>A strategic logistics and decision-making model designed to simplify complex industrial and operational processes.</p>
+        </div>
+        <div class="card">
+            <h4>19-Nation Grid Resilience</h4>
+            <p>Research analyzing digital infrastructure resilience across major global economies and technological ecosystems.</p>
         </div>
     </div>
-    <footer>© 2026 MD. AL AMIN SOHAG | salsabilah amin empires</footer>
+
+    <h3>Salsabilah Amin Empires</h3>
+    <p>Registered Trade Mark Holder</p>
+    <div class="trademark">Reg No: 018923558</div>
+
+    <h3>Publications</h3>
+    <ul style="list-style: none; padding: 0;">
+        <li>📘 <strong>Circuit to Start Up</strong></li>
+        <li>📙 <strong>The Empress's Legacy</strong></li>
+    </ul>
+
+    <div class="btn-group">
+        <a href="blog.html" class="btn">Research Blog</a>
+        <a href="mailto:ceo@salsabilah.com" class="btn" style="background:transparent; border:1px solid var(--primary); color:var(--primary);">Contact Me</a>
+    </div>
+
+    <footer>
+        © 2026 MD. AL AMIN SOHAG | Salsabilah Amin Empires <br>
+        <small>Building strategic research frameworks for future global systems.</small>
+    </footer>
+</div>
+
 </body>
 </html>
