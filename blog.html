@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | MD. AL AMIN SOHAG</title>
+    <title>Research Insights | MD. AL AMIN SOHAG</title>
     <style>
-        body { margin: 0; font-family: 'Inter', sans-serif; background: #0f172a; color: #f8fafc; padding: 60px 20px; }
+        :root {
+            --primary: #38bdf8;
+            --accent: #2dd4bf;
+            --bg: #020617;
+            --card: #0f172a;
+            --text: #f1f5f9;
+        }
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); padding: 60px 20px; line-height: 1.8; }
         .container { max-width: 800px; margin: auto; }
-        h1 { text-align: center; color: #38bdf8; font-size: 2.5rem; }
-        .article { background: #1e293b; padding: 30px; border-radius: 12px; margin-top: 40px; border-left: 5px solid #38bdf8; }
-        h2 { color: #38bdf8; margin-top: 0; }
-        .date { color: #9ca3af; font-size: 0.9rem; margin-bottom: 15px; display: block; }
-        .back-link { display: block; text-align: center; margin-top: 50px; color: #38bdf8; text-decoration: none; font-weight: bold; }
+        h1 { text-align: center; color: var(--primary); font-size: 2.5rem; letter-spacing: -1px; margin-bottom: 50px; }
+        .article { background: var(--card); padding: 40px; border-radius: 15px; border-left: 5px solid var(--primary); box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        h2 { color: var(--primary); margin-top: 0; font-size: 1.8rem; }
+        .date { color: var(--accent); font-size: 0.85rem; font-weight: bold; text-transform: uppercase; margin-bottom: 20px; display: block; letter-spacing: 1px; }
+        p { margin-bottom: 20px; font-size: 1.1rem; color: #cbd5e1; }
+        .back-link { display: block; text-align: center; margin-top: 60px; color: var(--primary); text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .back-link:hover { color: var(--accent); }
+        footer { text-align: center; margin-top: 80px; color: #64748b; font-size: 0.9rem; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>My Insights</h1>
+        <h1>Research Insights</h1>
+        
         <div class="article">
             <span class="date">Published: March 24, 2026</span>
-            <h2>The Digit Theory: A New Beginning</h2>
-            <p>Your digital identity is more than just a name; it is your legacy. In Salsabilah Amin Empires, we focus on securing this future.</p>
+            <h2>The Digit Theory: Structural Identity</h2>
+            <p>
+                Digital identity is increasingly becoming the core variable in modern economic systems. <strong>The Digit Theory</strong> explores how personal and corporate data act as structural assets rather than mere information.
+            </p>
+            <p>
+                Within the framework of <strong>Salsabilah Amin Empires Ltd</strong>, research is focused on securing these digital legacies through resilient infrastructure and strategic mathematical modeling.
+            </p>
+            <p>
+                As global systems shift towards Industrial Resilience 4.0, understanding the interplay between digital variables and tangible assets becomes the primary mission of this research hub.
+            </p>
         </div>
-        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <a href="index.html" class="back-link">← Back to Strategic Hub</a>
     </div>
+
+    <footer>
+        © 2026 Salsabilah Amin Empires Ltd | MD. AL AMIN SOHAG
+    </footer>
 </body>
 </html>
