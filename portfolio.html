@@ -19,118 +19,63 @@
             --bg: #020617;
             --card: #0f172a;
             --text: #f1f5f9;
+            --whatsapp: #25D366;
         }
-        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); padding: 40px 20px; }
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: var(--text); padding: 60px 20px; line-height: 1.8; }
         .container { max-width: 1000px; margin: auto; }
         .header { text-align: center; margin-bottom: 50px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
-        .project-card { background: var(--card); border: 1px solid #1e293b; border-radius: 15px; padding: 30px; transition: 0.3s; }
-        .project-card:hover { border-color: var(--primary); transform: translateY(-5px); }
-        .tag { background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
-        h3 { color: var(--primary); margin: 15px 0; }
-        .stats { font-weight: bold; color: var(--accent); margin-top: 10px; display: block; }
-        .back-link { display: block; text-align: center; margin-top: 50px; color: var(--primary); text-decoration: none; font-weight: bold; }
+        .header h1 { color: var(--primary); font-size: 2.5rem; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 40px; }
+        .project-card { background: var(--card); padding: 30px; border-radius: 20px; border: 1px solid #1e293b; transition: 0.3s; position: relative; overflow: hidden; }
+        .project-card:hover { border-color: var(--primary); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(56, 189, 248, 0.1); }
+        
+        .tag { background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; }
+        h3 { color: var(--text); margin: 15px 0 10px 0; font-size: 1.4rem; }
+        .description { color: #94a3b8; font-size: 1rem; margin-bottom: 20px; }
+        .milestone { color: var(--accent); font-weight: bold; font-size: 0.9rem; border-top: 1px solid #1e293b; padding-top: 15px; display: block; }
+
+        .back-link { display: block; text-align: center; margin-top: 60px; color: var(--primary); text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .back-link:hover { color: var(--accent); }
+        
+        footer { text-align: center; margin-top: 80px; color: #64748b; font-size: 0.8rem; border-top: 1px solid #1e293b; padding-top: 20px; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1 style="color: var(--primary); letter-spacing: 2px;">PROJECT GALLERY</h1>
-            <p>Validated Milestones & Technical Infrastructure</p>
+            <h1>Strategic Portfolio</h1>
+            <p style="color: #64748b;">Industrialization of Logic & Infrastructure</p>
         </div>
 
         <div class="grid">
             <div class="project-card">
-                <span class="tag">Logic Framework</span>
+                <span class="tag">Systemic Design</span>
                 <h3>The SOHAG Filter</h3>
-                <p>A strategic decision-making model designed to filter complex industrial variables into actionable data.</p>
-                <span class="stats">Status: Operational</span>
+                <p class="description">A logistics and decision-making model built to optimize complex industrial processes through mathematical resilience.</p>
+                <span class="milestone">Status: Active Framework</span>
             </div>
 
             <div class="project-card">
-                <span class="tag">Infrastructure</span>
+                <span class="tag">Electronics</span>
                 <h3>Circuit to Start Up</h3>
-                <p>The transition phase from pure electronics engineering to a full-scale corporate trade entity.</p>
-                <span class="stats">Turnover: 5.91 Crores</span>
+                <p class="description">Transformation of experimental electronics into a scaled commercial empire.</p>
+                <span class="milestone">Milestone: 5.91 Crore Turnover</span>
             </div>
 
             <div class="project-card">
-                <span class="tag">Digital Theory</span>
-                <h3>19-Nation Grid</h3>
-                <p>Researching resilience frameworks across global technological ecosystems.</p>
-                <span class="stats">Scope: Global</span>
+                <span class="tag">Economic Theory</span>
+                <h3>The Digit Theory</h3>
+                <p class="description">Exploring digital identity and currency as dynamic variables within economic systems.</p>
+                <span class="milestone">Phase: Research Publication</span>
             </div>
         </div>
 
         <a href="index.html" class="back-link">← Return to Strategic Command Center</a>
     </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ABC123XYZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-ABC123XYZ');
-    </script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strategic Portfolio | Salsabilah Amin Empire</title>
-    <style>
-        :root {
-            --primary: #38bdf8;
-            --accent: #2dd4bf;
-            --bg: #020617;
-            --card: #0f172a;
-            --text: #f1f5f9;
-        }
-        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); padding: 40px 20px; }
-        .container { max-width: 1000px; margin: auto; }
-        .header { text-align: center; margin-bottom: 50px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
-        .project-card { background: var(--card); border: 1px solid #1e293b; border-radius: 15px; padding: 30px; transition: 0.3s; }
-        .project-card:hover { border-color: var(--primary); transform: translateY(-5px); }
-        .tag { background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
-        h3 { color: var(--primary); margin: 15px 0; }
-        .stats { font-weight: bold; color: var(--accent); margin-top: 10px; display: block; }
-        .back-link { display: block; text-align: center; margin-top: 50px; color: var(--primary); text-decoration: none; font-weight: bold; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1 style="color: var(--primary); letter-spacing: 2px;">PROJECT GALLERY</h1>
-            <p>Validated Milestones & Technical Infrastructure</p>
-        </div>
-
-        <div class="grid">
-            <div class="project-card">
-                <span class="tag">Logic Framework</span>
-                <h3>The SOHAG Filter</h3>
-                <p>A strategic decision-making model designed to filter complex industrial variables into actionable data.</p>
-                <span class="stats">Status: Operational</span>
-            </div>
-
-            <div class="project-card">
-                <span class="tag">Infrastructure</span>
-                <h3>Circuit to Start Up</h3>
-                <p>The transition phase from pure electronics engineering to a full-scale corporate trade entity.</p>
-                <span class="stats">Turnover: 5.91 Crores</span>
-            </div>
-
-            <div class="project-card">
-                <span class="tag">Digital Theory</span>
-                <h3>19-Nation Grid</h3>
-                <p>Researching resilience frameworks across global technological ecosystems.</p>
-                <span class="stats">Scope: Global</span>
-            </div>
-        </div>
-
-        <a href="index.html" class="back-link">← Return to Strategic Command Center</a>
-    </div>
+    <footer>
+        © 2026 Salsabilah Amin Empires Ltd | Verified by Sohag
+    </footer>
 </body>
 </html>
