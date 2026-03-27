@@ -18,64 +18,82 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Official portal of Salsabilah Amin Empire. Strategic research, industrial resilience, and the 'Abbaba' legacy.">
+    <meta property="og:title" content="Salsabilah Amin Empire | The Empress's Decree">
+    <meta property="og:description" content="From Chuadanga to a 5.91 Crore empire. Documenting a father's love and a strategic vision.">
+    <meta property="og:image" content="6528.jpg"> 
+    <meta property="og:type" content="website">
+
     <title>Salsabilah Amin Empire | The Empress's Decree</title>
+    
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; padding: 20px; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px; margin-bottom: 15px; }
-        .nav-menu { margin-bottom: 30px; display: flex; gap: 10px; flex-wrap: wrap; }
-        .nav-link { color: #e74c3c; text-decoration: none; font-weight: bold; border: 1px solid #e74c3c; padding: 8px 18px; border-radius: 5px; transition: 0.3s; }
-        .nav-link:hover { background: #e74c3c; color: white; }
+        :root {
+            --primary-red: #e74c3c;
+            --whatsapp-green: #25D366;
+            --dark-blue: #2c3e50;
+        }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; padding: 20px; margin: 0; }
+        .container { max-width: 800px; margin: 40px auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 25px rgba(0,0,0,0.1); }
         
+        h1 { color: var(--dark-blue); border-bottom: 2px solid var(--primary-red); padding-bottom: 10px; }
+        
+        .nav-menu { margin-bottom: 30px; display: flex; gap: 10px; }
+        .nav-link { color: var(--primary-red); text-decoration: none; font-weight: bold; border: 1px solid var(--primary-red); padding: 8px 18px; border-radius: 5px; transition: 0.3s; }
+        .nav-link:hover { background: var(--primary-red); color: white; }
+        
+        /* Interactive WhatsApp Button */
         .whatsapp-btn {
             display: inline-flex;
             align-items: center;
-            background-color: #25D366;
+            background-color: var(--whatsapp-green);
             color: white;
             padding: 15px 25px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 1.1em;
             margin: 25px 0;
             box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            animation: pulse 2s infinite;
             transition: 0.3s;
         }
-        .whatsapp-btn:hover { background-color: #128C7E; transform: translateY(-3px); }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .whatsapp-btn:hover { transform: scale(1.05); background-color: #128C7E; }
         
-        .highlight { color: #e74c3c; font-weight: bold; }
+        .highlight { color: var(--primary-red); font-weight: bold; }
         .abbaba { font-size: 24px; color: #8e44ad; font-style: italic; margin: 20px 0; display: block; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #7f8c8d; border-top: 1px solid #eee; padding-top: 20px; }
+        .footer { margin-top: 50px; font-size: 0.9em; color: #7f8c8d; border-top: 1px solid #eee; padding-top: 20px; text-align: center; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>The Empress's Decree: <span class="highlight">Salsabilah Amin Empire</span></h1>
         
-        <div class="nav-menu">
+        <nav class="nav-menu">
             <a href="blog.html" class="nav-link">Empire Chronicles</a>
-            <a href="portfolio.html" class="nav-link">Project Gallery →</a>
-        </div>
+            <a href="portfolio.html" class="nav-link">Project Gallery</a>
+        </nav>
 
-        <p>From the heart of Chuadanga to a <span class="highlight">5.91 Crore</span> empire, this is the story of a father's love and a daughter's legacy.</p>
+        <p>From the heart of Chuadanga to a <span class="highlight">5.91 Crore</span> empire.</p>
 
-        <a href="https://wa.me/8801711995940?text=Hello!%20I%20am%20interested%20in%20the%20Salsabilah%20Amin%20Empire." 
-           target="_blank" 
-           class="whatsapp-btn" 
-           onclick="trackWhatsApp()">
-            💬 Chat with the Empire on WhatsApp
+        <a href="https://wa.me/8801711995940" target="_blank" class="whatsapp-btn" onclick="trackWhatsApp()">
+            💬 Chat with Salsabilah Amin Ltd
         </a>
 
         <span class="abbaba">"Abbaba..." — The divine call that changed everything.</span>
 
-        <div class="content">
+        <article class="content">
             <h3>Symphony of the Empire (2026 Masterpiece)</h3>
-            <p>This document serves as the ultimate proof of our journey, the electronics business success, and the spiritual bond that fuels our growth.</p>
-        </div>
+            <p>This document serves as the ultimate proof of our journey and spiritual bond.</p>
+        </article>
 
-        <div class="footer">
-            <p>© 2026 Salsabilah Amin Empire. All Rights Reserved. Managed by Sohag.</p>
-        </div>
+        <footer class="footer">
+            <p>© 2026 Salsabilah Amin Empire. Managed by Sohag.</p>
+        </footer>
     </div>
 </body>
 </html>
