@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ABC123XYZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ABC123XYZ');
+
+      function trackWhatsApp() {
+        gtag('event', 'contact_click', {
+          'event_category': 'Engagement',
+          'event_label': 'WhatsApp Blog'
+        });
+      }
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research & Strategic Insights | MD. AL AMIN SOHAG</title>
@@ -12,17 +27,44 @@
             --card: #0f172a;
             --text: #f1f5f9;
             --gold: #fbbf24;
+            --whatsapp: #25D366;
         }
         body { margin: 0; font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: var(--text); padding: 60px 20px; line-height: 1.8; }
         .container { max-width: 900px; margin: auto; }
         .header-title { text-align: center; color: var(--primary); font-size: 2.5rem; letter-spacing: -1px; margin-bottom: 50px; text-transform: uppercase; }
         .article { background: var(--card); padding: 45px; border-radius: 20px; border-left: 8px solid var(--primary); box-shadow: 0 10px 40px rgba(0,0,0,0.5); margin-bottom: 50px; position: relative; }
-        h2 { color: var(--primary); font-size: 2rem; margin-top: 0; }
+        h2 { color: var(--primary); font-size: 2rem; margin-top: 40px; }
+        h2:first-of-type { margin-top: 0; }
         .date { color: var(--accent); font-weight: bold; text-transform: uppercase; font-size: 0.85rem; margin-bottom: 25px; display: block; letter-spacing: 1px; }
         p { font-size: 1.15rem; color: #cbd5e1; margin-bottom: 20px; text-align: justify; }
         .highlight-box { background: rgba(45, 212, 191, 0.05); border: 1px dashed var(--accent); padding: 25px; border-radius: 12px; margin: 30px 0; }
         .quote-box { border-left: 4px solid var(--gold); padding-left: 20px; font-style: italic; color: var(--gold); margin: 25px 0; font-size: 1.1rem; }
+        
+        /* WhatsApp Strategic Button */
+        .whatsapp-container { text-align: center; margin: 40px 0; }
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: transparent;
+            color: var(--whatsapp);
+            padding: 12px 30px;
+            border: 2px solid var(--whatsapp);
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .whatsapp-btn:hover {
+            background-color: var(--whatsapp);
+            color: white;
+            box-shadow: 0 0 20px rgba(37, 211, 102, 0.4);
+        }
+
         .back-link { display: block; text-align: center; margin-top: 60px; color: var(--primary); text-decoration: none; font-weight: bold; }
+        .back-link:hover { text-decoration: underline; }
         footer { text-align: center; margin-top: 100px; color: #64748b; font-size: 0.9rem; border-top: 1px solid #1e293b; padding-top: 30px; }
     </style>
 </head>
@@ -39,8 +81,17 @@
 
             <div class="highlight-box">
                 <p>
-                    The story captures the 'Divine Coincidence' where a Trade License was issued on November 14, 2024, followed exactly 24 hours later by the birth of his daughter—the true owner of this empire. In a moment where the world felt empty, Salsabilah did not just arrive; she brought the divine vision and placed it directly into her father's hands.
+                    The story captures the 'Divine Coincidence' where a Trade License was issued on November 14, 2024, followed exactly 24 hours later by the birth of his daughter—the true owner of this empire.
                 </p>
+            </div>
+
+            <div class="whatsapp-container">
+                <a href="https://wa.me/8801711995940?text=I%20have%20read%20The%20Empress's%20Legacy%20and%20would%20like%20to%20discuss%20strategic%20insights." 
+                   target="_blank" 
+                   class="whatsapp-btn" 
+                   onclick="trackWhatsApp()">
+                    💬 Secure Channel: WhatsApp
+                </a>
             </div>
 
             <div class="quote-box">
